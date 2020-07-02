@@ -13,6 +13,27 @@ void showname(string name) {
 
 */
 
+/* Static
+
+class Forest
+{
+  private static string definition;
+  public static string Definition
+  { 
+    get { return definition; }
+    set { definition = value; }
+  }
+}
+
+static void Main(string[] args)
+{
+  Console.WriteLine(Forest.Definition);
+}
+
+Remember that static means “associated with the class, not an instance”. 
+
+ */
+
 /* Abstract class 
 project idea: https://1000projects.org/online-blood-bank-a-c-net-project.html */
 public abstract class Donator {
